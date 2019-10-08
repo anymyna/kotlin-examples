@@ -3,6 +3,7 @@
     package="com.example.kotlin.examples.kotlin_examples" >
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,6 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+
+        <activity
+            android:name=".LoggerActivity"
+            android:label="PhotoView"
+            android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>
