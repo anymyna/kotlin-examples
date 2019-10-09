@@ -24,8 +24,14 @@
 
 
         <activity
-            android:name=".LoggerActivity"
-            android:label="PhotoView"
+            android:name=".ui.LoggerActivity"
+            android:label="Logger"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name=".ui.TabLayoutActivity"
+            android:label="TabLayout"
             android:screenOrientation="portrait"/>
 
     </application>

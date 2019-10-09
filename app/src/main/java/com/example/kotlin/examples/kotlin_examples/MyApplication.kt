@@ -16,6 +16,6 @@ class MyApplication : Application() {
 
         Logger.addLogAdapter(AndroidLogAdapter(formatStrategy))
 
-        
+
     }
 }

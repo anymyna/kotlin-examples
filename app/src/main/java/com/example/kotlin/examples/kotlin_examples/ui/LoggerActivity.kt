@@ -1,7 +1,8 @@
-package com.example.kotlin.examples.kotlin_examples
+package com.example.kotlin.examples.kotlin_examples.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.kotlin.examples.kotlin_examples.R
 import com.orhanobut.logger.Logger
 import kotlinx.android.synthetic.main.content_main.*
 

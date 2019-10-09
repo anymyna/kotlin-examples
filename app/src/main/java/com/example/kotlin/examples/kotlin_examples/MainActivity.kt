@@ -6,6 +6,8 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.example.kotlin.examples.kotlin_examples.ui.LoggerActivity
+import com.example.kotlin.examples.kotlin_examples.ui.TabLayoutActivity
 
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
@@ -23,6 +25,10 @@ class MainActivity : AppCompatActivity() {
         }
         btn_logger.setOnClickListener {
             startActivity(Intent(this, LoggerActivity::class.java))
+        }
+
+        btn_tab.setOnClickListener {
+            startActivity(Intent(this, TabLayoutActivity::class.java))
         }
         // SharedPreferences
 //        var preferences = getSharedPreferences("share",0).edit()
