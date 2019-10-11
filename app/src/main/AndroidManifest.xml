@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kotlin.examples.kotlin_examples" >
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
@@ -32,6 +34,11 @@
         <activity
             android:name=".ui.TabLayoutActivity"
             android:label="TabLayout"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".util.NetworkActivity"
+            android:label="Network"
             android:screenOrientation="portrait"/>
 
     </application>
