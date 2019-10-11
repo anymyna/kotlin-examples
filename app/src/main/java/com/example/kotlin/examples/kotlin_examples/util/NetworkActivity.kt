@@ -3,6 +3,7 @@ package com.example.kotlin.examples.kotlin_examples.util
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.bumptech.glide.Glide
 import com.orhanobut.logger.Logger
 import kotlinx.android.synthetic.main.activity_network.*
 import okhttp3.*
@@ -28,6 +29,8 @@ class NetworkActivity : AppCompatActivity() {
         btn_get.setOnClickListener {
             getData()
         }
+
+        Glide.with(this).load("http://images.csdn.net/20150817/1.jpg").into(img)
     }
 
 
