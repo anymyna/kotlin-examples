@@ -41,6 +41,11 @@
             android:label="Network"
             android:screenOrientation="portrait"/>
 
+        <activity
+            android:name="com.example.kotlin.examples.kotlin_examples.retrofit.RetrofitGetRequestActivity"
+            android:label="Network"
+            android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>

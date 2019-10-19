@@ -6,6 +6,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.example.kotlin.examples.kotlin_examples.retrofit.RetrofitGetRequestActivity
 import com.example.kotlin.examples.kotlin_examples.ui.LoggerActivity
 import com.example.kotlin.examples.kotlin_examples.ui.TabLayoutActivity
 import com.example.kotlin.examples.kotlin_examples.util.NetworkActivity
@@ -34,6 +35,10 @@ class MainActivity : AppCompatActivity() {
 
         btn_network.setOnClickListener {
             startActivity(Intent(this, NetworkActivity::class.java))
+        }
+
+        btn_retrofit.setOnClickListener {
+            startActivity(Intent(this, RetrofitGetRequestActivity::class.java))
         }
         // SharedPreferences
 //        var preferences = getSharedPreferences("share",0).edit()
